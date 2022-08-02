@@ -1,0 +1,14 @@
+// How to Delete properties in an array??????????????
+
+var myHome = {
+    "name": "Mannat",
+    "location":"Mumbai",
+    "Colour":"black",
+    "owner":"sharukh khan",
+    "neighbours": ["everything!"],
+    "isGood":true
+  };
+  
+delete myHome.isGood;
+console.log(myHome)
+ 
